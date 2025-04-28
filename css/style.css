@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 1rem;
   background: #fff8f0;
   position: sticky;
@@ -42,11 +43,13 @@ body {
 .site-nav {
   display: none;
   width: 100%;
+  flex-direction: column;
   background: #fff8f0;
+  order: 3;
 }
 
 .site-nav.active {
-  display: block;
+  display: flex;
 }
 
 .site-nav .nav-list {
@@ -116,7 +119,7 @@ body {
 
 .hometext {
   position: absolute;
-  top: 90%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgba(246, 244, 242, 0.9);
@@ -277,7 +280,10 @@ body {
     transform: translateY(0);
     display: block;
   }
-
+  
+  .hometext {
+    top: 90%;
+  }
   .hometext h1 {
     font-size: 3rem;
   }
