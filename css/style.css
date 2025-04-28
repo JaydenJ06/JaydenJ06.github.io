@@ -54,7 +54,7 @@ body {
   flex-direction: column;
   align-items: flex-end; 
   padding: 0.5rem 1rem; 
-  gap: 0.5rem;
+  gap: 0.3rem;
 }
 
 .site-nav .nav-list {
@@ -62,9 +62,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: auto; 
+  width: 100%; 
   padding: 0;
-  gap: 0.5rem;
+  gap: 0.3rem;
+}
+
+.site-nav .nav-list li {
+  width: 100%;
+  text-align: right;
+}
+
+.site-nav .nav-list li a {
+  display: block;
+  width: 100%;
+  text-align: right;
+  padding: 0.5rem 0.75rem; 
 }
 
 .site-nav a {
@@ -211,8 +223,8 @@ body {
 .menu li a {
   display: block;
   width: 100%;
-  text-align: end;
-  padding: 0.5rem 0;
+  text-align: right;
+  padding: 0.5rem 1rem;
 }
 
 .story-block {
