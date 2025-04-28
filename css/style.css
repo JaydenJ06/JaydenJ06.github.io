@@ -44,6 +44,7 @@ body {
   display: none;
   width: 100%;
   flex-direction: column;
+  align-items: flex-end;
   background: #fff8f0;
   order: 3;
 }
@@ -57,6 +58,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  align-items: flex-end;
   padding: 1rem;
   gap: 1.5rem;
 }
@@ -88,6 +90,7 @@ body {
   list-style: none;
   display: none;
   background: #f5f5f5;
+  width: 100%;
   padding-left: 1rem;
 }
 
@@ -126,7 +129,9 @@ body {
   padding: 1.5rem 2rem;
   text-align: center;
   border-radius: 10px;
-  max-width: 90%;
+  max-width: 600px; 
+  width: 90%;
+  height: auto;
 }
 
 .hometext h1 {
@@ -193,6 +198,13 @@ body {
   padding: 0.5rem 0;
   font-size: 1.2rem;
   border-bottom: 1px solid #0f88d2;
+}
+
+.menu li a {
+  display: block;
+  width: 100%;
+  text-align: end;
+  padding: 0.5rem 0;
 }
 
 .story-block {
@@ -283,6 +295,7 @@ body {
   
   .hometext {
     top: 90%;
+    max-width: 90%;
   }
   .hometext h1 {
     font-size: 3rem;
