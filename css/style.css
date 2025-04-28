@@ -262,6 +262,7 @@ body {
   color: #041225;
 }
 
+/* I got help from ChatGPT in fixing the mobile and PC view with little adjustments such as aligning and going fully across screens*/
 @media (min-width: 768px) {
   .hamburger {
     display: none;
